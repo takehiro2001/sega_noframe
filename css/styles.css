@@ -1,0 +1,171 @@
+/* パソコン用 */
+@media screen and (min-width: 769px) {
+  .br-sp {display: none; }
+  header {
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+  }
+  .header-text {
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.3));
+    font-size: 23px;
+    background-image: url("../assets/img/sonic-back.jpg");
+    background-size: cover;
+  }
+  body {
+    font-family: "Noto Serif JP",Helvetica,serif;
+    background-image: url("../assets/img/back1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    font-family: 'M PLUS 1p','ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  }
+  h2 {
+    font-family: 'M PLUS 1p','ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    font-size: 30px;
+  }
+  h3{
+    font-size: 20px;
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.3));
+    text-align: center;
+  }
+  .sonic img{
+    width: 50%;
+  }
+  .btn img{
+    width: 40%;
+  }
+  .btn01{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  .main-content{
+    padding: 20px.10px;
+    background-image: url("../assets/img/sonic-back2.jpg");
+    background-size: cover;
+  }
+  .main-content p{
+    margin-left: 230px;
+    margin-right: 200px;
+    font-size: 18px;
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.3));
+  }
+}
+
+/* タブレット用 */
+@media only screen and (min-width: 641px) and (max-width: 960px) {
+  .br-pc {display: none; }
+  header {
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+  }
+  .header-text {
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.3));
+    font-size: 23px;
+    background-image: url("../assets/img/sonic-back.jpg");
+    background-size: cover;
+  }
+  body{
+      font-family: "Noto Serif JP",Helvetica,serif;
+      background-image: url("../assets/img/back1.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+  }
+  h1{
+    font-size: 30px;
+    font-family: 'M PLUS 1p','ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  }
+  h2{
+    font-size: 25px;
+    font-family: 'M PLUS 1p','ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  }
+  h3{
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.3));
+    text-align: center;
+  }
+
+  .sonic img{
+    width: 60%;
+  }
+  p{
+    font-size: 20px;
+  }
+  .btn01{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  .btn img{
+    width: 60%;
+  }
+  .main-content{
+    padding: 20px.10px;
+    background-image: url("../assets/img/sonic-back2.jpg");
+    background-size: cover;
+  }
+  .main-content p{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/* スマートフォン用 */
+@media screen and (max-width: 640px) {
+  .br-pc {display: none; }
+  header {
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+  }
+  .header-text {
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.3));
+    background-image: url("../assets/img/sonic-back.jpg");
+    background-size: cover;
+  }
+  body{
+      font-family: "Noto Serif JP",Helvetica,serif;
+      background-image: url("../assets/img/back1.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+  }
+  h1{
+    font-size: 20px;
+    font-family: 'M PLUS 1p','ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  }
+  h2{
+    font-size: 16px;
+    font-family: 'M PLUS 1p','ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  }
+  h3{
+    font-size: 15px;
+    text-align: center;
+  }
+  p{
+    font-size: 13px;
+  }
+  .main-content{
+    background-image: url("../assets/img/sonic-back2.jpg");
+    background-size: cover;
+    padding: 10px.1px;
+  }
+  .sonic img{
+    width: 90%;
+  }
+  .btn01{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  .btn img{
+    width: 70%;
+  }
+}
